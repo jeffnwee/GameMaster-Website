@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EN Group Charades + Taboo — Gamemaster</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="toast" id="toast"></div>
+<div class="wrap">
+
+  <!-- HOME -->
+  <section class="screen on" id="home">
+    <div class="eyebrow">EN Group · Gamemaster</div>
+    <h1>Charades <em>+</em> Taboo</h1>
+    <div class="modes">
+      <button class="tile charades" data-mode="charades"><div class="ic">🎭</div><div><b>Charades</b><span>Act it out. No talking, no sound effects.</span></div></button>
+      <button class="tile taboo" data-mode="taboo"><div class="ic">🤐</div><div><b>Taboo</b><span>Describe it without the answer or the four forbidden words.</span></div></button>
+      <button class="tile rest" data-mode="restaurant"><div class="ic">🍱</div><div><b>Guess the Restaurant</b><span>Bonus round. Best played last.</span></div></button>
+    </div>
+    <div class="settings">
+      <div class="row"><label>Turn timer</label>
+        <div class="seg" id="timeSeg"><button data-t="30">30s</button><button data-t="60" class="on">60s</button><button data-t="90">90s</button></div></div>
+      <div class="row"><label>Teams</label>
+        <div class="seg" id="teamSeg"><button data-n="1">1</button><button data-n="2" class="on">2</button></div></div>
+      <div class="row"><label>Scores &amp; used cards</label>
+        <button class="btn ghost" id="resetAll" style="height:36px;padding:0 14px">Reset game</button></div>
+    </div>
+  </section>
+
+  <!-- CATEGORY -->
+  <section class="screen" id="cats">
+    <header class="top"><button class="back" data-go="home">‹</button><div><div class="eyebrow" id="catEyebrow">Charades</div><h1 style="font-size:24px">Pick a category</h1></div></header>
+    <div class="modes" id="catList" style="margin-top:4px"></div>
+    <div class="rules" id="catRules"></div>
+  </section>
+
+  <!-- PLAY -->
+  <section class="screen" id="play">
+    <header class="top">
+      <button class="back" data-go="back">‹</button>
+      <div class="meta"><div style="min-width:0"><div class="t" id="playTitle"></div><div class="s" id="playLeft"></div></div></div>
+      <button class="timer" id="timer">▶ 60</button>
+    </header>
+    <div class="stage" id="stage"></div>
+    <div class="actions">
+      <button class="btn skip" id="skipBtn">Skip</button>
+      <button class="btn ok" id="okBtn">Correct ✓</button>
+    </div>
+    <div class="draws" id="draws"></div>
+    <div class="teams" id="teams"></div>
+    <div class="teamhint">Tap a team to make it their turn · Correct gives points to the highlighted team</div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
