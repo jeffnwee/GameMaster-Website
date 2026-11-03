@@ -1,39 +1,39 @@
-/* ===== DATA (from the Tightened Draft proposal) ===== */
+/* ===== DATA (from the Tightened Draft proposal, updated 3 Nov 2026) ===== */
 const CATS = [
   {id:"grass",num:"01",name:"Touch Grass",blurb:"Outdoor activities, real-life mishaps and awkward everyday moments.",
-   charades:["Getting chased by a bee","Stepping in dog poop","Running from a cockroach","Walking into a spiderweb","Fighting with a broken umbrella","Running after a bus","Getting splashed by a passing car","Walking into a glass door","Putting up a tent","Slipping on a wet floor"],
+   charades:["Camping","Kite flying","Cycling","Swimming","Rock climbing","Walking the dog","Bird watching","Cockroach","Bee","Broken umbrella","Dog poop","Sandcastle","Hiking","Mosquito","Fishing","Picnic"],
    taboo:[["Mosquito","Bite","Blood","Itchy","Insect"],["Sunburn","Sun","Red","Skin","Beach"],["Picnic","Basket","Park","Blanket","Sandwich"],["Hiking","Walk","Mountain","Trail","Boots"],["Barbecue","Grill","Meat","Charcoal","Satay"],["Fishing","Fish","Rod","Hook","Lake"],["Touch Grass","Outside","Phone","Offline","Nature"],["Sunset","Sun","Evening","Orange","Sky"]],
    challenge:[["Petrichor","Smell","Rain","Earth","Scent"],["Golden Hour","Sunset","Photo","Light","Evening"],["Forest Bathing","Trees","Nature","Walk","Japanese"],["Geocaching","Treasure","GPS","Hunt","Hidden"]]},
-  {id:"genz",num:"02",name:"Gen Z Brainrot",blurb:"Online slang, viral humour, social media and dating culture.",
+  {id:"genz",num:"02",name:"Brainrots",blurb:"Italian brainrot characters, brainrot memes and Gen Alpha lingo.",
    tip:"<b>Fun twist:</b> pair an older and a younger player on Taboo — one reads the card, the other explains it.",
-   charades:["Scrolling on your phone at 3 a.m.","Phone dying at 1%","Freezing in a Mannequin Challenge","Taking a selfie with 50 retakes","Accidentally liking your ex’s old photo","Pretending to be on a call to avoid someone","Arguing with an AI chatbot","Rage-quitting a video game","Filming a “get ready with me” video","Taking photos of your food"],
-   taboo:[["Aura","Energy","Vibe","Points","Cool"],["Crash Out","Angry","Meltdown","Mad","Explode"],["Delulu","Delusional","Crush","Fantasy","Unrealistic"],["6-7","Six","Seven","Hands","Meme"],["Glazing","Praise","Hype","Compliment","Donut"],["Standing on Business","Promise","Serious","Follow through","Mean it"],["Cooked","Doomed","Finished","Over","Chef"],["Unc","Uncle","Old","Grandpa","Age"],["Rizz","Flirt","Charm","Smooth","Pick up"],["Bed Rotting","Lazy","Phone","Lying","Weekend"],["Situationship","Relationship","Dating","Label","Complicated"],["Red Flag","Warning","Sign","Toxic","Danger"]],
-   challenge:[["Canon Event","Destiny","Fate","Spider-Man","Must happen"],["Looksmaxxing","Handsome","Attractive","Glow up","Jaw"],["Copium","Cope","Denial","Hope","Drug"],["Parasocial","Celebrity","One-sided","Fan","Relationship"]]},
+   charades:["Skibidi Toilet","Telebubble","Tung Tung Tung Sahur","Ballerina Cappuccina","Tralalero Tralala","Bombardiro Crocodilo","Chimpanzini Bananini","Brr Brr Patapim","6-7","Aura farming","Mewing","Fanum Tax","Grimace Shake","Chill Guy","IShowSpeed","Among Us"],
+   taboo:[["Aura","Energy","Vibe","Points","Cool"],["Rizz","Flirt","Charm","Smooth","Pick up"],["Sigma","Alpha","Lone","Wolf","Male"],["Ohio","State","America","Weird","Only in"],["Skibidi","Toilet","Head","Song","Dop"],["Fanum Tax","Steal","Food","Bite","Streamer"],["Mogging","Better","Looks","Tall","Dominate"],["Glazing","Praise","Hype","Compliment","Donut"],["6-7","Six","Seven","Hands","Meme"],["NPC","Game","Character","Background","Robot"],["Bombardiro Crocodilo","Crocodile","Plane","Bomb","Italian"],["Chill Guy","Dog","Sweater","Relaxed","Pockets"]],
+   challenge:[["Lirilì Larilà","Elephant","Cactus","Sandals","Clock"],["Cappuccino Assassino","Coffee","Ninja","Sword","Italian"],["Mango Mustard","Six","Seven","Sauce","Fruit"],["Italian Brainrot","Tung","Shark","Characters","AI"]]},
   {id:"bari",num:"03",name:"Bari Bari Steak",blurb:"Sizzling plates, steak cuts and messy dining moments.",
-   charades:["Burning your tongue on hot food","Chewing a very tough steak","Getting hit by sizzle splatter","Blowing on steak that is too hot","Spilling sauce on your shirt","Carrying a sizzling hot plate","Cutting steak with a knife and fork","Piling a salad plate way too high","Flipping a steak","Using a napkin as a splatter shield"],
+   charades:["Salt Bae","Chef’s kiss","Flipping steak","Burnt tongue","Food coma","Salad bar","Sizzle splatter","Cow","Sizzling plate","Meat sweats","Last piece","Well done"],
    taboo:[["Wagyu","Beef","Japan","Marbling","Premium"],["Medium Rare","Pink","Cooked","Middle","Doneness"],["Well Done","Cooked","Brown","Overcooked","Steak"],["Teppan","Iron","Plate","Hot","Grill"],["Garlic Rice","Fried","Bowl","Side","Chips"],["Salad Bar","Free-flow","Vegetables","Refill","Buffet"],["Sirloin","Cut","Steak","Beef","Ribeye"],["Donburi","Bowl","Rice","Japanese","Topping"]],
    challenge:[["Maillard Reaction","Brown","Crust","Sear","Chemistry"],["Dry-Aged","Old","Weeks","Fridge","Funky"],["Tomahawk","Axe","Bone","Giant","Ribeye"],["Blue Rare","Raw","Red","Cold","Barely"]]},
-  {id:"sg",num:"04",name:"Only in SG",blurb:"Everyday Singapore and office life to act out, plus Singlish for Taboo.",
+  {id:"sg",num:"04",name:"Only in SG",blurb:"Singapore icons, places and office life to act out, plus Singlish for Taboo.",
    tip:"<b>Singlish rule:</b> explain using a situation (“when your friends go makan without you…”), just not the forbidden words.",
-   charades:["Rushing into the MRT at the door beep","Shaking your umbrella before entering a mall","Joining a queue without knowing what it is for","Card rejected at the MRT gantry","Sweating while eating chicken rice at a hawker","Dodging the aunty clearing trays","Caught in a sudden downpour","Standing on the left of the escalator","Pretending to type when the boss walks past","Talking while still on mute","Fighting with the office printer","Waiting in the pantry microwave queue","Sneaking out of the office at 6pm sharp","Falling asleep in a long meeting","Hunting for an empty meeting room","Getting a work message at 11pm"],
+   charades:["Lee Kuan Yew","Merlion","Phua Chu Kang","Joseph Schooling","JJ Lin","Marina Bay Sands","National Day Parade","Durian","Chilli crab","MRT","Ah Boys to Men","Changi Airport","You’re on mute","Printer jam","Overtime","Lunch break","Boss is coming","Zoom meeting"],
    taboo:[["Chope","Reserve","Tissue","Seat","Table"],["Kiasu","Scared","Lose","Queue","Greedy"],["Bo Jio","Invite","Left out","Never","Ask"],["Paiseh","Sorry","Embarrassed","Shy","Awkward"],["Shiok","Good","Nice","Satisfying","Delicious"],["Sian","Bored","Tired","Sad","Lazy"],["Kaypoh","Busybody","Nosy","Gossip","Curious"],["Blur Like Sotong","Confused","Squid","Lost","Slow"],["Wah Lau Eh","Shocked","Angry","Wow","Exclaim"],["Lepak","Relax","Chill","Hang out","Lazy"],["Atas","Fancy","High-class","Rich","Posh"],["Steady","Good","Cool","Stable","Nice"]],
    challenge:[["Gostan","Reverse","Car","Back","Drive"],["Agak Agak","Estimate","Roughly","Guess","About"],["Siam","Avoid","Dodge","Escape","Hide"],["Jialat","Bad","Trouble","Terrible","Serious"]]},
-  {id:"en",num:"05",name:"EN Group Universe",blurb:"EN Group dishes and dining moments, made for customers to guess.",
-   charades:["Slurping very hot soup","Dipping tempura into sauce","Eating wasabi that is way too strong","Cracking an egg over a rice bowl","Chasing a slippery tofu cube with chopsticks","Grilling meat and flipping it at the table","Cutting into a crispy pork cutlet","Eating a giant plate of curry","Jiggling a soufflé pancake","Taking a photo with a mascot"],
+  {id:"en",num:"05",name:"EN Group Universe",blurb:"EN Group dishes and dining moments, plus a Guess the Restaurant bonus round.",
+   charades:["Spicy food","Slurping ramen","Hot soup","Blowtorch","Cracking an egg","Soufflé pancake","Sushi","Omurice","Monster","Giant prawn","Chopsticks","Wasabi"],
    taboo:[["Katsu Curry","Japanese","Fried","Rice","Brown"],["Tempura","Prawn","Fried","Batter","Crispy"],["Tonkatsu","Pork","Cutlet","Fried","Breaded"],["Omurice","Egg","Omelette","Rice","Ketchup"],["Bak Kut Teh","Pork","Ribs","Soup","Herbal"],["Yakiniku","Grill","BBQ","Meat","Table"],["Aburi","Torch","Flame","Seared","Sushi"],["Gyoza","Dumpling","Fried","Pork","Pleat"],["Miso Soup","Tofu","Seaweed","Bowl","Brown"],["Wasabi","Green","Spicy","Sushi","Nose"],["Chopsticks","Eat","Sticks","Wooden","Hold"],["Matcha","Green","Tea","Powder","Latte"],["Onsen Egg","Soft","Runny","Yolk","Hot spring"]],
    challenge:[["Umami","Taste","Savoury","Fifth","MSG"],["Itadakimasu","Before","Meal","Thanks","Japanese"],["Omakase","Chef","Choose","Trust","Sushi"],["Furikake","Sprinkle","Seaweed","Rice","Seasoning"]]}
 ];
 const REST = {
   easy:[["Monster Curry","Spicy","Giant","Rice","Challenge"],["Tempura-EN","Prawn","Fried","Batter","Crispy"],["Tonkatsu ENbiton","Pork","Cutlet","Fried","Breaded"],["Tamago-EN","Egg","Omurice","Pancake","Yolk"],["Bari Bari Steak","Steak","Beef","Teppan","Sizzling"]],
-  hard:[["Wa-En Wagyu Yakiniku","Beef","Grill","BBQ","Table"],["Aburi-EN","Torch","Flame","Seared","Bowl"],["Kiwami","Ramen","Fried Rice","Gyoza","Noodles"],["Nikutosake","Meat","Sake","Hamburg","Drinks"],["Monster Planet","Curry","Halal","Spicy","Burger"],["EN Yeoh’s Bak Kut Teh","Pork","Ribs","Soup","Herbal"],["EN Dining","Sushi","Sashimi","Japanese","Bar"]]
+  hard:[["Wa-En Wagyu Yakiniku","Beef","Grill","BBQ","Table"],["Aburi-EN","Torch","Flame","Seared","Bowl"],["Kiwami","Ramen","Fried Rice","Gyoza","Noodles"],["Nikutosake","Meat","Sake","Hamburg","Drinks"],["Monster Planet","Curry","Halal","Spicy","Burger"],["En Yeoh’s Bak Kut Teh","Pork","Ribs","Soup","Herbal"],["EN Dining","Sushi","Sashimi","Japanese","Bar"]]
 };
 
 /* ===== STATE ===== */
 const S = {mode:null, cat:null, card:null, turn:60, nTeams:2, cover:false,
   teams:[], active:0, used:{}, timeLeft:60, ticking:null};
-function load(){ try{ const d=JSON.parse(localStorage.getItem("enct")||"{}");
+function load(){ try{ const d=JSON.parse(localStorage.getItem("enct-v2")||"{}");
   Object.assign(S,{turn:d.turn||60,nTeams:Math.min(d.nTeams||2,2),cover:!!d.cover,teams:d.teams||[],active:d.active||0,used:d.used||{}});}catch(e){} }
-function save(){ try{ localStorage.setItem("enct",JSON.stringify({turn:S.turn,nTeams:S.nTeams,cover:S.cover,teams:S.teams,active:S.active,used:S.used})) }catch(e){} }
+function save(){ try{ localStorage.setItem("enct-v2",JSON.stringify({turn:S.turn,nTeams:S.nTeams,cover:S.cover,teams:S.teams,active:S.active,used:S.used})) }catch(e){} }
 function ensureTeams(){ while(S.teams.length<S.nTeams) S.teams.push({name:"Team "+(S.teams.length+1),score:0}); S.teams.length=S.nTeams; if(S.active>=S.nTeams)S.active=0; }
 
 /* ===== DECKS ===== */
@@ -44,7 +44,7 @@ function pileCards(pile){
   return pile==="challenge"?S.cat.challenge:S.cat.taboo;
 }
 function remaining(pile){ const all=pileCards(pile), u=S.used[deckKey(pile)]||[]; return all.map((_,i)=>i).filter(i=>!u.includes(i)); }
-function draw(pile){
+function draw(pile, hideFirst){
   stopTimerIfDone();
   const left=remaining(pile);
   if(!left.length){ S.card={empty:true,pile}; render(); return; }
@@ -53,6 +53,7 @@ function draw(pile){
   const c=pileCards(pile)[i];
   const pts = S.mode==="restaurant" ? (pile==="easy"?2:3) : (pile==="challenge"?2:1);
   S.card = S.mode==="charades" ? {text:c,pts,pile} : {text:c[0],forb:c.slice(1),pts,pile};
+  S.card.hidden = !!hideFirst; // only the first card of a category starts hidden
   render(true);
 }
 function shufflePile(pile){ delete S.used[deckKey(pile)]; save(); draw(pile); }
@@ -68,7 +69,7 @@ function openCats(){
     return `<button class="tile" data-cat="${c.id}"><div class="num">${c.num}</div><div><b>${c.name}</b><span>${c.blurb}</span></div><div class="count">${n}</div></button>`;
   }).join("");
   $("catRules").innerHTML = S.mode==="charades"
-    ? "<b>Charades:</b> no talking, no sound effects. Getting the gist counts — “stepping in poop” is good enough for “Stepping in dog poop”. 1 point per correct guess."
+    ? "<b>Charades:</b> no talking, no sound effects. Every answer is a word, a short phrase or a name. Close enough counts — “poop” is fine for “Dog poop”. 1 point per correct guess."
     : "<b>Taboo:</b> never say the answer, any part of it, or a forbidden word. Saying one = skip the card, no point. Challenge cards are worth 2.";
   show("cats");
 }
@@ -83,7 +84,7 @@ function startPlay(){
   else if(S.mode==="restaurant") d=`<button class="btn ghost" data-draw="easy">Easier · 2 pts</button><button class="btn ghost gold" data-draw="hard">★ Harder · 3 pts</button>`;
   $("draws").innerHTML=d;
   show("play");
-  draw(S.mode==="restaurant"?"easy":(S.mode==="taboo"?"taboo":"charades"));
+  draw(S.mode==="restaurant"?"easy":(S.mode==="taboo"?"taboo":"charades"), true);
 }
 
 function render(anim){
@@ -105,10 +106,10 @@ function render(anim){
   st.innerHTML = `<div class="card${c.hidden?" hidden":""}${anim?" flash":""}" id="card">
      <div class="tag"><span>${label}</span><span class="pts ${ptsCls}">${ptsTxt}</span></div>
      <div class="word ${c.forb?"tb":"ch"}">${esc(c.text)}</div>
-     ${c.forb?`<div class="forb"><h4>FORBIDDEN WORDS</h4><ul>${c.forb.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`:`<div class="hint">No talking · no sound effects · the gist counts</div>`}
+     ${c.forb?`<div class="forb"><h4>FORBIDDEN WORDS</h4><ul>${c.forb.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`:`<div class="hint">No talking · no sound effects · close enough counts</div>`}
      <div class="cover"><b>Card hidden</b><span>Tap to reveal to the ${S.mode==="charades"?"actor":"clue-giver"}</span></div>
    </div>`;
-  $("card").onclick=()=>{ c.hidden=!c.hidden; $("card").classList.toggle("hidden",c.hidden); };
+  $("card").onclick=()=>{ if(!c.hidden) return; c.hidden=false; $("card").classList.remove("hidden"); };
   paintTeams();
 }
 function esc(s){return s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]))}
